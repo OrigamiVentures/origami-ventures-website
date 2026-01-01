@@ -1,0 +1,44 @@
+@import url("./src/styles/variables.css");
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+}
+button {
+  border: 0px;
+  border-radius: 0px;
+}
+main {
+  padding: 0 100px;
+  counter-reset: section;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: var(--transition);
+  cursor: pointer;
+}
