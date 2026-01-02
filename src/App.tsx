@@ -1,18 +1,26 @@
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Team from "./components/Team";
 import "./styles/Landing.css";
 
+/**
+ * Home
+ * About Us
+ * Services
+ * Work
+ * Team
+ * @returns
+ */
 function App() {
   return (
-    <main>
-      <div className="gradient-background">
-        <section>
-          <div className="container-main">
-            <h1 className="hero-heading-h1">
-              Building bold brands with <span>thoughtful design</span>
-            </h1>
-          </div>
-        </section>
-      </div>
-    </main>
+    <div className="main">
+      <div className="gradient-background"></div>
+      <Header />
+      <Home />
+      <Services />
+      <Team />
+    </div>
   );
 }
 

@@ -1,38 +1,39 @@
 :root {
-  /* Color Variables */
-
-  /* Typography */
-  --font-sans: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
-    system-ui, sans-serif;
-  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-
-  /* Font Sizes */
-  --fz-xxs: 12px;
-  --fz-xs: 13px;
-  --fz-sm: 14px;
-  --fz-md: 16px;
-  --fz-lg: 18px;
-  --fz-xl: 20px;
-  --fz-xxl: 22px;
-  --fz-heading: 32px;
-
-  /* Layout */
-  --border-radius: 4px;
-  --nav-height: 100px;
-  --nav-scroll-height: 70px;
-  --tab-height: 42px;
-  --tab-width: 120px;
-
-  /* Animations */
-  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
-  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-
-  /* Hamburger Menu */
-  --hamburger-width: 30px;
-  --ham-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
-  --ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
-  --ham-after: bottom 0.1s ease-in 0.25s,
-    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  --ham-after-active: bottom 0.1s ease-out,
-    transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  --container-lg: 1272px;
+  --inter: "Inter Tight", sans-serif;
+  --large-button-size: 64px;
+  --violet-100: #4928fd;
+  --regular-medium: 16px;
+  --white-100: white;
+  --medium-button-size: 48px;
+  --black-100: #1b1d1e;
+  --instrument: "Instrument Serif", sans-serif;
+  --heading-h5-desktop: 24px;
+  --black-10: #1b1d1e1a;
+  --regular-small: 14px;
+  --heading-h3-desktop: 48px;
+  --black-60: #1b1d1e99;
+  --white-60: #fff9;
+  --yellow-100: #f6e683;
+  --heading-h2-desktop: 72px;
+  --black-50: #1b1d1e0d;
+  --white-10: #ffffff1a;
+  --heading-h6-desktop: 20px;
+  --heading-h4-desktop: 32px;
+  --header-h1-desktop: 130px;
+  --violet-20: #4928fd33;
+  --orange-100: #ffaf68;
+  --orange-20: #ffaf6833;
+  --yellow-20: #f6e68333;
+  --green-100: #79d45e;
+  --green-20: #79d45e33;
+  --purple-100: #b981ed;
+  --purple-20: #b981ed33;
+  --pink-100: #f4889a;
+  --pink-20: #f4889a33;
+  --blue-100: #70b5ff;
+  --blue-20: #70b5ff33;
+  --container-md: 738px;
+  --container-sm: 290px;
+  --black-40: #1b1d1e66;
 }
