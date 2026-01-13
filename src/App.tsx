@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
@@ -19,7 +20,8 @@ function App() {
       <Header />
       <Home />
       <Services />
-      <Team />
+      {/* <Team /> */}
+      <Footer />
     </div>
   );
 }

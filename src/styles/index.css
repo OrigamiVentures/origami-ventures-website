@@ -3526,15 +3526,23 @@ header {
   height: 96px;
   position: fixed;
 }
+.logo {
+  width: 117px;
+  height: 34px;
+}
 
-.div-block-2 {
+.logo img {
+  width: 100%;
+}
+
+/* .div-block-2 {
   grid-column-gap: 80px;
   grid-row-gap: 80px;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   display: flex;
-}
+} */
 
 .navbar-logo-left {
   z-index: 11;

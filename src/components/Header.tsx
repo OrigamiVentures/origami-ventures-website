@@ -1,3 +1,4 @@
+import OrigamiLogo from "../assets/images/origami.png";
 function Header() {
   return (
     <header>
@@ -19,19 +20,14 @@ function Header() {
               backgroundColor: "rgba(255, 255, 255, 0)",
             }}
           >
-            <div className="div-block-2">
+            <div className="logo">
               <a
                 href="/"
                 aria-current="page"
                 className="navbar-brand-2 w-nav-brand w--current"
                 aria-label="home"
               >
-                {/* <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/67a5fb8bc33c7f25ab4e52d9/67a5fbb8c1bbd60c8bd785ca_Frame%202.png"
-                  alt=""
-                /> */}
-                Origami Ventures
+                <img loading="lazy" src={OrigamiLogo} alt="" />
               </a>
             </div>
             <ul role="list" className="nav-menu-two-2 w-list-unstyled">
