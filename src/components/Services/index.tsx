@@ -1,5 +1,4 @@
 import ServiceCard from "./ServiceCard";
-import "../../styles/services.css";
 
 const SERVICES = [
   "Strategic Positioning and planning",

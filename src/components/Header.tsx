@@ -54,9 +54,6 @@ function Header() {
                 <a href="/#pricing" className="nav-link-4">
                   Pricing
                 </a>
-                <a href="/#award" className="nav-link-4">
-                  Awards
-                </a>
               </li>
             </ul>
             <div className="div-block-50">
