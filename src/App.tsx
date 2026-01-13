@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import Team from "./components/Team";
-import "./styles/Landing.css";
+import "./styles/index.css";
 
 /**
  * Home

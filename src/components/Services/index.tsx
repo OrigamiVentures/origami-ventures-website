@@ -15,13 +15,15 @@ const SERVICES = [
 function Services() {
   return (
     <section id="services">
-      <div className="services-grid">
-        {SERVICES.map((service) => (
-          <ServiceCard key={service} title={service} />
-        ))}
-      </div>
       <div>
-        <p>Start your creative journey with us</p>
+        <div className="services-grid">
+          {SERVICES.map((service) => (
+            <ServiceCard key={service} title={service} />
+          ))}
+        </div>
+        <div>
+          <p>Start your creative journey with us</p>
+        </div>
       </div>
     </section>
   );
